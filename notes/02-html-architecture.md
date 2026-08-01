@@ -211,3 +211,122 @@ Clarity first.
 Curiosity second.
 
 
+# HTML Naming Principles
+
+Good names describe purpose.
+
+Bad
+
+working-flex
+
+features-grid
+
+hero-left
+
+Good
+
+working-content
+
+features-list
+
+hero-content
+
+Reason:
+
+HTML should describe WHAT something is.
+
+CSS decides HOW it looks.
+
+Rule:
+
+Prefer purpose over implementation.
+
+
+# Hero CTA Hierarchy
+
+Primary CTA
+
+The most important action.
+
+Examples
+
+Get Started
+
+Start Free
+
+Begin Your Wellness Journey
+
+------------------------------------
+
+Secondary CTA
+
+Supports users who need more information.
+
+Examples
+
+Learn More
+
+Watch Demo
+
+See Features
+
+------------------------------------
+
+Trust Indicators
+
+Small pieces of information
+that reduce user hesitation.
+
+Examples
+
+✓ Secure
+
+✓ Affordable
+
+✓ Privacy First
+
+✓ Built for Patients
+
+------------------------------------
+
+Rule
+
+A Hero should answer:
+
+1. What is this?
+
+2. Why should I trust it?
+
+3. What should I do next?
+
+
+# Design System Thinking
+
+Avoid styling unique buttons.
+
+Instead of:
+
+#primary-button
+
+#secondary-button
+
+Prefer:
+
+.btn
+
+.btn-primary
+
+.btn-secondary
+
+Reason:
+
+All buttons share common styles.
+
+Only variants should differ.
+
+This makes components reusable
+and easier to maintain.
+
+
+
+
