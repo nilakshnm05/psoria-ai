@@ -1,0 +1,38 @@
+/* Remove default spacing */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Consistent box model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Responsive images */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset buttons */
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

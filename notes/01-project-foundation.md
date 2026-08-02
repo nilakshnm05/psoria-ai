@@ -245,3 +245,118 @@ A layout element answers:
 "How should it be displayed?"
 
 
+# Project Workflow
+
+Professional development follows a repeatable workflow.
+
+Problem
+↓
+
+Plan
+
+↓
+
+Architecture
+
+↓
+
+Implementation
+
+↓
+
+Testing
+
+↓
+
+Review
+
+↓
+
+Git Commit
+
+↓
+
+Push
+
+Rule
+
+Never start coding before understanding the problem.
+
+----------------------------------------------------
+
+# Documentation Strategy
+
+This project maintains three kinds of documentation.
+
+docs/
+
+Project-specific documentation.
+
+Examples
+
+- Vision
+
+- Roadmap
+
+- Architecture Decisions
+
+----------------------------------------------------
+
+notes/
+
+Engineering concepts that can be reused in any project.
+
+----------------------------------------------------
+
+CHEATSHEET.md
+
+Fast interview revision.
+
+----------------------------------------------------
+
+Rule
+
+Document knowledge once.
+
+Reuse it forever.
+
+----------------------------------------------------
+
+# Development Mindset
+
+Software engineering is not about writing code.
+
+It is about solving problems through
+well-designed systems.
+
+Always ask:
+
+What problem am I solving?
+
+Why is this solution appropriate?
+
+Can this solution scale?
+
+Can another developer understand this code?
+
+----------------------------------------------------
+
+# Repository Philosophy
+
+A professional repository should contain:
+
+- Clean folder structure
+
+- Documentation
+
+- Learning notes
+
+- Meaningful commits
+
+- Clear README
+
+Code tells HOW.
+
+Documentation explains WHY.
+
+

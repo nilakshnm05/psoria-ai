@@ -1,0 +1,18 @@
+body{
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    min-height: 100vh;
+}
+.container {
+    width: min(1200px, calc(100% - 2rem));
+    margin-inline: auto;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: var(--spacing-md);
+}

@@ -328,5 +328,135 @@ This makes components reusable
 and easier to maintain.
 
 
+----------------------------------------------------
+
+# HTML Document Flow
+
+A typical page structure
+
+<html>
+
+↓
+
+<head>
+
+↓
+
+<body>
+
+↓
+
+<header>
+
+↓
+
+<main>
+
+↓
+
+<footer>
+
+Rule
+
+HTML should describe the structure
+before CSS describes the appearance.
+
+----------------------------------------------------
+
+# Landmark Elements
+
+<header>
+
+Introductory content.
+
+----------------------------
+
+<nav>
+
+Navigation.
+
+----------------------------
+
+<main>
+
+Primary page content.
+
+----------------------------
+
+<section>
+
+Related content.
+
+----------------------------
+
+<article>
+
+Independent content.
+
+----------------------------
+
+<footer>
+
+Closing information.
+
+Rule
+
+Choose elements by meaning,
+not appearance.
+
+----------------------------------------------------
+
+# Accessibility Mindset
+
+Every HTML decision should improve:
+
+- Screen readers
+
+- Keyboard navigation
+
+- SEO
+
+- Maintainability
+
+Accessibility should be built in,
+not added later.
+
+
+# Multiple Classes
+
+An HTML element can have more than one class.
+
+Example
+
+<div class="container header-container">
+
+The browser applies styles from BOTH classes.
+
+Example
+
+.container
+
+↓
+
+Reusable layout styles.
+
+.header-container
+
+↓
+
+Header-specific layout.
+
+Benefits
+
+- Reusability
+- Single Responsibility
+- Less duplication
+- Easier maintenance
+
+Rule
+
+Combine small, reusable classes instead of creating one large class that does everything.
+
+
 
 
