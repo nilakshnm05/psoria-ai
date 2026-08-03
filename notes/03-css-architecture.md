@@ -511,5 +511,95 @@ Rule
 Avoid giving two classes responsibility for the same concern.
 
 
+# Component Variants
+
+Reusable components can have variants.
+
+Example
+
+.btn
+
+↓
+
+Shared styles
+
+- Padding
+- Radius
+- Typography
+- Cursor
+- Transition
+
+----------------------------------
+
+.btn-primary
+
+↓
+
+Visual appearance
+
+- Background
+- Text color
+
+----------------------------------
+
+.btn-secondary
+
+↓
+
+Alternative appearance
+
+----------------------------------
+
+Rule
+
+The base class defines shared behavior.
+
+Variants define visual differences.
+
+
+# Hover vs Focus
+
+Hover
+
+- Mouse interaction
+- Indicates an interactive element
+
+Focus Visible
+
+- Keyboard interaction
+- Indicates the currently focused element
+
+Rule
+
+Never rely only on hover.
+
+Keyboard users should always have a visible focus state.
+
+
+# inline-flex
+
+display: inline-flex combines two behaviors.
+
+Outside
+
+- Behaves like an inline element.
+
+Inside
+
+- Behaves like a flex container.
+
+Use Cases
+
+- Buttons with icons
+- Badges
+- Chips
+- Tags
+- Inline UI components
+
+Rule
+
+Use inline-flex when an element should stay inline while using Flexbox to align its children.
+
+
 
 

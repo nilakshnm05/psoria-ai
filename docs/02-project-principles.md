@@ -148,3 +148,20 @@ Every implementation should answer:
 Why does this exist?
 
 
+## When to Create a Design Token
+
+Create a design token when a value is:
+
+- Reused across multiple components.
+- Part of the application's visual identity.
+- Likely to change globally.
+
+Avoid creating tokens for:
+
+- One-off values.
+- Component-specific tweaks.
+- Temporary experiments.
+
+Rule
+
+Tokenize reusable design decisions, not every CSS value.

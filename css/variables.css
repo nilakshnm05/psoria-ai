@@ -3,8 +3,11 @@
   --color-accent: #f59e0b;
   --color-background: #f8fafc;
   --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
   --color-secondary: #22c55e;
   --color-text: #1f2937;
+  --color-text-light: #ffffff;
+  --color-border: #e5e7eb;
 
   /* Typography */
   --font-family: "Inter", sans-serif;
