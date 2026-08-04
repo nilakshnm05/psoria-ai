@@ -63,3 +63,38 @@ Responsibilities
 Component class
 
 Responsible for section-specific layout only.
+
+
+## Parent vs Child Responsibilities
+
+Parent
+- Controls layout
+- display
+- gap
+- align-items
+- justify-content
+
+Child
+- Controls its own content
+- typography
+- internal flex direction
+- spacing between its own children
+
+Example
+
+.hero-container
+↓
+
+Controls
+
+.hero-content
+.hero-preview
+
+.hero-content
+↓
+
+Controls
+
+.hero-text
+.hero-actions
+.hero-trust

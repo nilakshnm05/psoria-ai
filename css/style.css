@@ -63,3 +63,50 @@ ul.nav-links {
 .btn-primary:hover {
   background-color: var(--color-primary-dark);
 }
+.hero-container {
+  display: flex;
+  gap: var(--spacing-xl);
+  align-items: center;
+  padding-block: var(--spacing-xl);
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+.hero-text h1 {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 37.5rem; /* 600px */
+}
+.hero-text p {
+  font-size: var(--font-size-lg);
+  line-height: 1.5;
+  max-width: 37.5rem; /* 600px */
+  font-weight: 400;
+  color: var(--color-text);
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xl);
+}
+.btn-secondary {
+  background-color: var(--color-text-light);
+  color: var(--color-text);
+  border: 2px solid var(--color-primary);
+}
+.btn-secondary:hover {
+  background-color: var(--color-border);
+}
+.hero-trust {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+.hero-trust p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: 500;
+}

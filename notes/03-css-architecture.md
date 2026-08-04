@@ -601,5 +601,104 @@ Rule
 Use inline-flex when an element should stay inline while using Flexbox to align its children.
 
 
+# Parent Controls Layout
+
+A useful frontend principle:
+
+The parent should control the layout of its children.
+
+Example
+
+.hero-container
+
+↓
+
+Controls
+
+- display: flex
+- gap
+- align-items
+
+The child should focus on arranging its own content.
+
+Example
+
+.hero-content
+
+↓
+
+Controls
+
+- flex-direction
+- spacing between its internal elements
+
+Rule
+
+The parent controls the relationship between siblings.
+
+The child controls the arrangement of its own content.
+
+
+# HTML Should Represent UI Hierarchy
+
+Structure HTML according to the visual and logical hierarchy of the interface.
+
+Example
+
+Hero
+├── Hero Content
+│   ├── Hero Text
+│   ├── Hero Actions
+│   └── Hero Trust
+└── Hero Preview
+
+Avoid grouping elements only because they happen to render correctly.
+
+Rule
+
+Good HTML should describe the UI even before CSS is applied.
+
+
+# Component Variants
+
+Create a reusable base component first.
+
+Example
+
+.btn
+
+↓
+
+Shared styles
+
+- Padding
+- Border Radius
+- Typography
+- Cursor
+- Transition
+
+Create variants for visual differences.
+
+.btn-primary
+
+- Background
+- Text Color
+
+.btn-secondary
+
+- Border
+- Background
+- Text Color
+
+Rule
+
+The base component defines shared behaviour.
+
+Variants define visual appearance.
+
+
+
+
+
 
 
