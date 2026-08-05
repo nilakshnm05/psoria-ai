@@ -697,6 +697,43 @@ The base component defines shared behaviour.
 Variants define visual appearance.
 
 
+# Parent Owns Rhythm
+
+Modern CSS often uses the parent to create consistent spacing.
+
+Instead of giving every child its own margins:
+
+❌
+
+.card h4 {
+    margin-bottom: 1rem;
+}
+
+.card p {
+    margin-bottom: 0.5rem;
+}
+
+Prefer letting the parent manage spacing.
+
+✅
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.card h4,
+.card p,
+.card small {
+    margin: 0;
+}
+
+Rule
+
+The parent should own the spacing rhythm between its direct children.
+
+
 
 
 
