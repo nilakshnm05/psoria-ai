@@ -734,6 +734,45 @@ Rule
 The parent should own the spacing rhythm between its direct children.
 
 
+# Responsive Design Principles
+
+## 1. Build desktop first
+
+Start with the best desktop experience.
+
+Only introduce responsive changes when the layout requires them.
+
+---
+
+## 2. Use content-driven breakpoints
+
+Don't choose breakpoints based on device names.
+
+Choose them when your design starts losing readability, balance, or usability.
+
+---
+
+## 3. Make minimal overrides
+
+Keep base styles in `style.css`.
+
+Only override the properties that actually change in `responsive.css`.
+
+Avoid rewriting entire components.
+
+---
+
+## 4. One breakpoint = One responsibility
+
+Example:
+
+825px → Layout changes
+
+480px → Typography changes
+
+Each media query should solve a specific problem.
+
+
 
 
 
