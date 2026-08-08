@@ -773,6 +773,53 @@ Example:
 Each media query should solve a specific problem.
 
 
+## Semantic Color Tokens
+
+Prefer naming colors by their responsibility rather than their appearance.
+
+✅ Good
+
+--color-surface
+--color-surface-alt
+--color-text-inverse
+
+❌ Avoid
+
+--white
+--gray-100
+--light-gray
+
+
+## Design Systems Grow with Evidence
+
+Don't create tokens for hypothetical future use.
+
+Start simple.
+
+When a pattern repeats, introduce a semantic design token and refactor existing code.
+
+
+## Grid vs Flexbox
+
+Choose the layout system based on the problem.
+
+### Use Flexbox
+
+- One-dimensional layouts
+- Row OR column
+- Navigation bars
+- Button groups
+- Hero content
+
+### Use CSS Grid
+
+- Two-dimensional layouts
+- Rows AND columns
+- Card grids
+- Gallery layouts
+- Dashboards
+
+
 
 
 

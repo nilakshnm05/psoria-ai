@@ -20,3 +20,10 @@
         font-size: var(--font-size-base);
     }
 }
+
+@media (max-width: 750px) {
+  .problem-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
