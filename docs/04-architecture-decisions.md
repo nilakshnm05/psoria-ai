@@ -142,3 +142,25 @@ Status
 Accepted
 
 
+
+### 2. `docs/04-architecture-decisions.md` — one small decision
+
+This one is worth recording because it's an actual **design/implementation decision**, not just CSS syntax:
+
+```md
+## Responsive How It Works Layout
+
+Decision:
+Use a 3-column step layout above 768px and a single-column vertical
+journey at 768px and below.
+
+Reason:
+The desktop layout communicates the three-step journey horizontally.
+On smaller screens, stacking the steps improves readability while
+preserving the journey through vertical connectors.
+
+Implementation:
+Use `.step:not(:last-child)::after` for decorative connectors rather
+than adding connector elements to the HTML.
+
+

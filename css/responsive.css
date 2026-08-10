@@ -41,3 +41,21 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 768px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
+  .step:not(:last-child)::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: var(--spacing-xl);
+    background-color: var(--color-text);
+    opacity: 0.25;
+  }
+}

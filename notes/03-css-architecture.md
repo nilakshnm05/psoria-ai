@@ -820,7 +820,26 @@ Choose the layout system based on the problem.
 - Dashboards
 
 
+## Responsive How It Works Section
 
+### Desktop → Mobile Layout
+
+The `.steps` container uses CSS Grid:
+
+- Desktop: 3 equal columns
+- Mobile (≤ 768px): 1 column
+
+```css
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
 
 
 

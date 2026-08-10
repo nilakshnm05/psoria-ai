@@ -98,3 +98,19 @@ Controls
 .hero-text
 .hero-actions
 .hero-trust
+
+
+### Useful Responsive Patterns
+
+- `position: relative` on parent + `position: absolute` on pseudo-element
+  → position decorative elements relative to a component.
+
+- `.item:not(:last-child)::after`
+  → add separators/connectors between items without adding extra HTML.
+
+- A pseudo-element can change geometry across breakpoints:
+  horizontal line → vertical line.
+
+- Use existing spacing/color variables instead of hard-coded values.
+
+
