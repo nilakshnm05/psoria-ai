@@ -164,3 +164,4 @@ Use `.step:not(:last-child)::after` for decorative connectors rather
 than adding connector elements to the HTML.
 
 
+FAQ interaction: Use native <details>/<summary> instead of JavaScript-driven accordion behavior because the HTML itself communicates the disclosure intent and provides the interaction/accessibility behavior.
