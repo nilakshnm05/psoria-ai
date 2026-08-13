@@ -58,4 +58,7 @@
     background-color: var(--color-text);
     opacity: 0.25;
   }
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -195,7 +195,6 @@ ul.nav-links {
 .problem-card {
   background-color: var(--color-background);
   border-radius: var(--radius-md);
-  border: 1px solid var(--color-border);
   box-shadow: var(--shadow-sm);
   padding: var(--spacing-md);
   transition:
@@ -247,11 +246,8 @@ ul.nav-links {
 .feature-card {
   background-color: var(--color-surface-alt);
   border-radius: var(--spacing-md);
-  border: 1px solid var(--color-border);
   box-shadow: var(--shadow-sm);
   padding: var(--spacing-md);
-}
-.feature-card {
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -317,7 +313,7 @@ ul.nav-links {
 }
 
 #faqs {
-  background-color: var(--color-background);
+  background-color: var(--color-surface-alt);
   padding-block: var(--spacing-xl);
 }
 .faqs-container {
@@ -331,7 +327,7 @@ ul.nav-links {
   margin-inline: auto;
 }
 .faq-item {
-  background-color: var(--color-surface-alt);
+  background-color: var(--color-background);
   border: 1px solid var(--color-border);
   border-radius: var(--spacing-md);
   padding: var(--spacing-md);
@@ -365,4 +361,43 @@ ul.nav-links {
   gap: var(--spacing-md);
   max-width: 800px;
   margin-inline: auto;
+}
+
+#testimonials {
+  background-color: var(--color-background);
+  padding-block: var(--spacing-xl);
+}
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+.testimonials-header {
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-lg);
+}
+.testimonial-card {
+  background-color: var(--color-surface-alt);
+  border-radius: var(--spacing-md);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.testimonial-icon {
+  font-size: 1.5rem;
 }
